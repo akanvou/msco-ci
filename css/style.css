@@ -819,7 +819,9 @@ form .pied-formulaire button:hover{
         left: -100%;
         object-fit: cover; /* Garde une belle forme */
     }
-    
+    .wraperso .imglo{
+        display: none;
+    }
     .soc h2{
         margin: 0;
         padding: 0;
