@@ -214,9 +214,10 @@ main{
 .photomin{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: aliceblue;
     margin: auto;
+    padding: 20px;
 
 }
 .img{
@@ -235,21 +236,23 @@ main{
 }
 .produit-details .p1{
     text-align: justify;
+    margin: 18px;
     padding: auto;
     overflow: hidden;
+    font-size: 18.5px;
 
 
 }
 .product-images{
-    width: 550px;
+    width: 400px;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:baseline;
     background-color: rgb(179, 176, 176);
-    padding: 20px;
-    margin: 30px;
+    padding: 30px;
+    margin: 60px;
 }
 .main-image{
     margin: 40px;
@@ -263,8 +266,6 @@ main{
     transform:scale(1.2)
 }
 .detail{
-    
-    margin: 2px;
     padding: 10px;
     display: flex;
     flex-direction:row;
@@ -280,12 +281,12 @@ main{
     color: #8a1c1c;
     font-weight: bold;
     overflow: hidden;
-    gap: 10px;
+    gap: 5px;
     
 }  
 .detail1 img{
-    width: 65%;
-    height: 65%;
+    width: 50%;
+    height: 60%;
     object-fit: contain;
     transition: transform 400ms;
 }
@@ -299,11 +300,12 @@ main{
     font-weight: bold;
     color: rgb(148, 42, 42);
     text-align: center;
-    margin: 25px;
-    padding: 25px;
+    margin: 20px;
+    padding: 20px;
     
     
 }
+
 
 .prix {
     font-size: 1.5em;

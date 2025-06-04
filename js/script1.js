@@ -12,9 +12,9 @@
 
          // Mettre à jour les détails du produit
          
-         productDescription.textContent = e.target.dataset.description;
+         productTitle.textContent = e.target.dataset.title || "";
+            productDescription.textContent = e.target.dataset.description || "";
+            //productPrice.textContent = `Prix : ${e.target.dataset.price || ""}`;
      });
  });
-
-
 
